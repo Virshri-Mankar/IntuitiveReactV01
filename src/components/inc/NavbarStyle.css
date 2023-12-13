@@ -1,0 +1,62 @@
+/* NAVBAR STARTS HERE */
+#nav1{  box-shadow: 1px 1px 2px #789eaf;}
+#logoId img {  width: 90px;  height: 90px;}
+.navbar-light .navbar-brand { color: #074764 !important; /* color:#2B5592 !important; */  font-size: 32px;  
+  font-family: 'Poppins', sans-serif;  font-weight: 600;  cursor: pointer;  position: relative;  display: block;  
+  margin-top: 0;   word-spacing: 1px;   letter-spacing: .05rem; }
+.phase1Logo{ display: flex;  justify-content: flex-start;  align-items: center;  flex-direction: row;  flex-grow: 1;}
+.navbar-light .navbar-brand:hover {  /* color:#2491f0 !important; */  color:#0d73a2 !important;  cursor: pointer;  position: relative;  display: block;
+  margin-top: 0;  word-spacing: 1px;  font-weight: 600;  letter-spacing: .05rem;  transition: all 0.3s ease ;  -webkit-transition: all 0.3s ease 0s ;  -moz-transition : all 0.3s ease 0s ;  -o-transition: all 0.3s ease 0s;} 
+/* .navbar-light .navbar-nav .nav-link:hover {
+  font-size: 1.2rem;
+  color: #2491f0 !important;
+  transition: all 0.3s ease ;
+  -webkit-transition: all 0.3s ease 0s ;
+  -moz-transition : all 0.3s ease 0s ;
+  -o-transition: all 0.3s ease 0s;
+} */
+/* end navbar */
+
+/* for mobile view */
+@media  (min-width: 431px) and (max-width: 768px)  { 
+  .mrt40{margin-top: 5px;}
+  #logoId img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .navbar-light .navbar-brand {
+    color:#2B5592 !important;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  }
+
+/* @@ */
+@media   (max-width: 430px){ 
+  .mrt40{margin-top: 5px;}
+  #logoId img { width: 50px;  height: 50px; }
+  .navbar-light .navbar-brand { color:#2B5592 !important;font-size: 20px; font-family: 'Poppins', sans-serif; font-weight: 500; cursor: pointer;}
+ }
+
+/* for tab view */
+@media screen and (min-width: 768px) and (max-width: 1023px) { 
+  .mrt40{margin-top: 5px;}
+  #logoId img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .navbar-light .navbar-brand {
+    color:#2B5592 !important;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+ }
+
+

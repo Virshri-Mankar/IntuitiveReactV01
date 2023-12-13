@@ -1,0 +1,176 @@
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+.flexcontact{ display: flex; justify-content: space-between; align-items: center;  /* width: 80%; */  margin: auto; flex-direction: row;}
+#contactSection .leftsideInfo{  flex-basis: 50%; display: flex; justify-content: space-between; align-items: initial;flex-direction: column; padding: 0px 20px;}
+.rightsideInfo{flex-basis: 50%;}
+#contactSection .infoNmailID{ display: flex;justify-content: center; align-items: center; flex-direction: row; margin-top: 40px; gap: 10px; /* flex: 0 0 50%; */  }
+.infoNmailID .column{flex: 50%;}
+#contactSection .contact-info-text a {color: #0e3159; text-decoration: none ; font-size: 20px; font-weight: 500;margin-bottom: 10px;}
+#contactSection .contact-info-text .addretxt a {color: #0e3159; text-decoration: none ; font-size: 15px; font-weight: 400; padding: 0px; }
+/* #contactSection .contact-info-text .phonetxt a {color: #0e3159; text-decoration: none ; font-size: 15px; font-weight: 400; padding: 0px; } */
+/* #contactSection .contact-info-text .mailtxt a {color: #0e3159; text-decoration: none ; font-size: 15px; font-weight: 400; padding: 0px; } */
+#contactSection .addretxt .contact-info-item {padding: 30px 0px;}
+#contactSection .phonetxt .contact-info-item {padding: 45px 0px;}
+#contactSection .mailtxt .contact-info-item {padding: 60px 0px;}
+/* #contactSection .contact-info-text {padding: 0px 10px;} */
+/* #contactSection .contact-info-text .addressTxt { font-size: 18px !important; font-weight: 400; } */
+.contact-info {display: inline-block; width: 100%; text-align: center; /* box-shadow: 5px 4px 10px #61b8ea; */ box-shadow: 3px 2px 6px #61b8ea; border-radius: 7px; /* margin-bottom: 10px; */ }
+    .contact-info-icon {
+    margin-bottom: 15px;
+    }
+    .contact-info-item {
+    /* background: #071c34; */
+    /* padding: 45px 0px; */
+    padding: 60px 0px;
+    
+    /* margin-bottom: 50px; */
+    }
+    .contact-info-text p{margin-bottom:0px;}
+    .contact-info-text h2 {
+      /* color: #144276; */
+      color: #6e87a3;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 10px;
+    }
+    .contact-info-text span {
+      color: #071c34;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    width: 100%;
+    }
+
+    /* right side contact us section css */
+    .contact-page-sec .contact-page-form h2 {
+      color: #071c34;
+      text-transform: capitalize;
+      font-size: 22px;
+      font-weight: 700;
+      text-align: center;
+      }
+      .contact-page-form .col-md-6.col-sm-6.col-xs-12 {
+      padding-left: 0;
+      }  
+      .contact-page-form .col-md-12.col-sm-12.col-xs-12 {
+        padding-left: 0;
+        }  
+      .contact-page-form.contact-form input {
+      margin-bottom: 5px;
+      }  
+      .contact-page-form.contact-form textarea {
+      height: 110px;
+      }
+      .contact-page-form.contact-form input[type="submit"] {
+      background: #071c34;
+      width: 150px;
+      border-color: #071c34;
+      }
+      .contact-info-icon i {
+      font-size: 48px;
+      color: #fda40b;
+      }
+      
+      
+      .contact-page-form input {
+      background: #f9f9f9 none repeat scroll 0 0;
+      border: 1px solid #f9f9f9;
+      margin-bottom: 20px;
+      padding: 12px 16px;
+      width: 100%;
+      border-radius: 4px;
+      }
+      
+      .contact-page-form .message-input {
+      display: inline-block;
+      width: 100%;
+      padding-left: 0;
+      }
+      .single-input-field textarea {
+      background: #f9f9f9 none repeat scroll 0 0;
+      border: 1px solid #f9f9f9;
+      width: 100%;
+      height: 120px;
+      padding: 12px 16px;
+      border-radius: 4px;
+      }
+      .single-input-fieldsbtn input[type="submit"] {
+      background: #fda40b none repeat scroll 0 0;
+      color: #fff;
+      display: inline-block;
+      font-weight: 600;
+      padding: 10px 0;
+      text-transform: capitalize;
+      width: 150px;
+      margin-top: 20px;
+      font-size: 16px;
+      }
+      .single-input-fieldsbtn input[type="submit"]:hover{background:#071c34;transition: all 0.4s ease-in-out 0s;border-color:#071c34}
+      .single-input-field  h4 {
+      color: #464646;
+      text-transform: capitalize;
+      font-size: 14px;
+      }
+      .contact-page-form {
+      display: inline-block;
+      width: 100%;
+      /* margin-top: 30px; */
+      padding: 30px;
+      border-radius: 5px;
+      /* border: 2px dotted rgb(35, 35, 86); */
+      background: #d7dbde;
+      }
+      
+      .contact-page-map {
+      margin-top: 36px;
+      }
+      .contact-page-form form {
+      padding: 20px 15px ;
+      }
+/* ############# */
+
+/* for mobile view */
+@media  (min-width: 431px) and (max-width: 768px)  { 
+    .flexcontact {flex-direction: column;}
+  #contactSection .leftsideInfo{width: 100%;}
+  #contactSection .addretxt .contact-info-item { padding: 20px 0px;}
+  .contact-page-form {margin-top: 40px;}
+
+  /* #contactInfo{margin-top: 0px;} */
+  /* #contactInfo .contact-info{margin-bottom: 30px;} */
+  .contact-info-text h2 {font-size: 16px;font-weight: 500;}
+  /* #contactInfo .contact-info-text a {font-size: 14px;font-weight: 400;} */
+  }
+
+/* @@ */
+@media   (max-width: 430px){ 
+    .flexcontact {flex-direction: column;}
+  #contactSection .leftsideInfo{width: 100%;}
+  #contactSection .addretxt .contact-info-item {padding: 18px 0px;}
+  
+  #contactSection .addretxt a {font-size: 19px;}
+  .rightsideInfo {margin: 15px;};
+  .contact-page-form {margin-top: 40px;}
+
+  /* #contactInfo{margin-top: 0px;} */
+  /* #contactInfo .contact-info{margin-bottom: 30px;} */
+  .contact-info-text h2 {font-size: 16px;font-weight: 500;}
+  /* #contactInfo .contact-info-text a {font-size: 14px;font-weight: 400;} */
+  .contact-page-form form { padding: 10px 15px 0; box-sizing: border-box; margin-left: 10px;}
+ }
+
+/* for tab view */
+@media screen and (min-width: 768px) and (max-width: 1023px) { 
+    .flexcontact {flex-direction: column;}
+  #contactSection .leftsideInfo{width: 100%;}
+  #contactSection .addretxt .contact-info-item { padding: 27px 0px;}
+  /* #contactSection .contact-info-text a {font-size: 20px;font-weight: 500;} */
+  #contactSection .contact-info-text a {font-size: 24px;font-weight: 400;}
+  .contact-page-form {margin-top: 40px;}
+
+  /* #contactInfo{margin-top: 0px;} */
+  /* #contactInfo .contact-info{margin-bottom: 30px;} */
+  .contact-info-text h2 {font-size: 20px;font-weight: 500;}
+  /* #contactInfo .contact-info-text a {font-size: 24px;font-weight: 400;} */
+ }
+

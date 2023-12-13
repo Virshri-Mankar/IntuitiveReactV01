@@ -1,0 +1,164 @@
+/* ############# */
+  /* footer css */
+  #footer {
+    background: #092a4f;
+    padding: 0px 0 30px 0;
+    color: #fff;
+    /* font-size: 14px; */
+  }
+  #footer h4{
+    color: white;
+  }
+  #footer a{
+    
+    color: rgb(227, 227, 229);
+    font-size: 1.2rem;
+    text-decoration: none;
+    
+  }
+  #footer a:hover{
+    
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 500;
+    
+  }
+  #footer .v-foot-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+  #footer img{
+    width: 70px;
+    height: 70px;
+    background:white;
+    border-radius: 50%;
+  }
+  #footer .footName a{
+    font-size: 28px !important ;
+    margin-bottom: 0.5rem;
+      font-family: inherit;
+      font-weight: 500;
+      line-height: 1.2;
+      color: white;
+  }
+  
+  
+  #footer .footer-top {
+    background: #0c2542;
+    /* border-top: 1px solid #768fa6; */
+    border-bottom: 1px solid #67839c;
+    /* padding: 60px 0 30px 0; */
+    padding: 60px;
+    
+  }
+  
+  
+  #footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+  
+  }
+  
+  #footer .footer-top .footer-links ul li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: rgb(227, 227, 229);
+  }
+  #footer .footer-top .footer-links ul li a:hover{
+   font-weight: 500;
+    color: white;
+  }
+  
+  #footer .footer-top .footer-links ul li:first-child {
+    padding-top: 0;
+  }
+  
+  #footer .footer-top .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  #footer .footer-top .footer-links ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+  }
+  #footer .copyright {
+    /* text-align: center; */
+    color: white;
+    font-weight: 500;
+    padding-top: 30px;
+    /* font-weight: 400; */
+    /* padding: 2rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+  }
+  
+  #footer .borderRgt{
+    border-right: 1px solid white;
+  }
+  /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+  /* for mobile view */
+@media  (min-width: 431px) and (max-width: 768px)  {
+    .mrt40{margin-top: 5px;}
+    #footer{margin-top: 0px;}
+  #footer a{font-size: 16px;}
+  #footer .footName a {   font-size: 24px !important;}
+  #footer img {width: 60px;height: 60px;}
+  #footer .copyright {font-size: 16px; font-weight: 300;  }
+  #footer .footer-top {padding:30px ;}
+  #footer .v-foot-logo{margin-top: 20px; padding-bottom: 15px;}
+  #footer .footer-newsletter {margin-top: 20px;}
+  #footer .footer-links{ padding-bottom: 20px;} 
+  #footer .borderRgt{ border-bottom: 1px solid white;border-right: none; margin-bottom: 20px; }
+   /* #footer .borderRgt{ margin-bottom: 20px; } */
+  /* #footer .footer_newsletter {border-right: none;  margin-bottom: 20px; } */
+  #footer h4 {font-size: 20px;}
+  }
+  
+  /* @@ */
+  @media   (max-width: 430px){
+      .mrt40{margin-top: 5px;}
+      #footer{margin-top: 0px;}
+  #footer a{font-size: 16px;}
+  #footer .footName a {   font-size: 22px !important;}
+  #footer img {width: 50px;height: 50px;}
+  #footer .copyright {font-size: 14px; font-weight: 300;  }
+  #footer .footer-top {padding:30px ;}
+  #footer .v-foot-logo{margin-top: 20px; padding-bottom: 15px;}
+  #footer .footer-newsletter {margin-top: 20px;}
+  #footer .footer-links{ padding-bottom: 20px;} 
+  #footer .borderRgt{ border-bottom: 1px solid white;border-right: none; margin-bottom: 20px; }
+   /* #footer .borderRgt{ margin-bottom: 20px; } */
+  /* #footer .footer_newsletter {border-right: none;  margin-bottom: 20px; } */
+  #footer h4 {font-size: 18px;}
+  }
+  
+  /* for tab view */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+      .mrt40{margin-top: 5px;}
+      #footer{margin-top: 0px;}
+      #footer a{font-size: 20px;}
+      #footer .footName a {   font-size: 28px !important;}
+      #footer img {width: 80px;height: 80px;}
+      #footer .copyright {font-size: 18px; font-weight: 300;  }
+      #footer .footer-top {padding:30px ;}
+      #footer .v-foot-logo{margin-top: 20px; padding-bottom: 15px;}
+      #footer .footer-newsletter {margin-top: 20px;}
+      #footer .footer-links{ padding-bottom: 20px;} 
+      #footer .borderRgt{ border-bottom: 1px solid white;border-right: none; margin-bottom: 20px; }
+       /* #footer .borderRgt{ margin-bottom: 20px; } */
+      /* #footer .footer_newsletter {border-right: none;  margin-bottom: 20px; } */
+      #footer .footer-links {border: none;  margin-bottom: 20px; }
+      #footer h4 {font-size: 22px;}
+  }

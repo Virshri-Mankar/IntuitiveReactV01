@@ -1,0 +1,38 @@
+/* about us starts here */
+.basicheading {position: relative;display: block; margin-top: 0; word-spacing: 1px;  font-weight: 600; letter-spacing: .05rem;  font-size: 34px;
+    text-transform: uppercase; color: #074764;  text-align: center;}
+  .lead1{font-size: 1.4rem; font-weight: 400;color: #455a64;letter-spacing: .03rem; word-spacing: 1px;text-align: left;}
+  /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+  .flexAbout{display: flex;justify-content: space-between;align-items: center; /* width: 80%; */ margin: auto;flex-direction: row;}
+  .leftSideImage{flex-basis: 50%;margin: 15px;}
+  .contentMr{flex-basis: 50%;margin: 15px;}
+  
+/* for mobile view */
+@media  (min-width: 431px) and (max-width: 768px)  {
+  .mrt40{margin-top: 5px;}
+  .flexAbout {flex-direction: column;}
+  .basicheading { font-size: 28px;}
+  .lead1 { font-size: 18px; }
+  #aboutSec{margin-top: 15px;}
+  #aboutSec .basicheading {margin-bottom: 10px;}
+}
+
+/* @@ */
+@media   (max-width: 430px){
+    .mrt40{margin-top: 5px;}
+    .flexAbout {flex-direction: column;}
+  .basicheading { font-size: 22px;}
+  .lead1 { font-size: 18px; }
+  #aboutSec{margin-top: 15px;}
+  #aboutSec .basicheading {margin-bottom: 10px;}
+}
+
+/* for tab view */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .mrt40{margin-top: 5px;}
+    .flexAbout {flex-direction: column;}
+  .basicheading { font-size: 34px;}
+  .lead1 { font-size: 24px; }
+  #aboutSec{margin-top: 15px;}
+  #aboutSec .basicheading {margin-bottom: 10px;}
+}
